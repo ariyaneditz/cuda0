@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1024px){
+    nav .row {
+        width: 100rem
+    }
+    .main-nav{
+        display: none
+    }
+    html{
+        font-size: 55.5%
+    }
+    .clint-img{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .clint-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .span_1_of_4{
+        width: 49.2%
+    }
+    .span_1_of_4:nth-child(4){
+        margin: 0
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    html{
+        font-size: 42.2%
+    }
+    .little-desc{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:480x){
+    .span_1_of_4 {
+        width:100%
+    }
+}
